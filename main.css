@@ -1,0 +1,69 @@
+@media (max-width: 575.98px) {
+  .slide-section .dropdown {
+    display: block;
+  }
+
+  .slide-section .list-group {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slide-list {
+    display: none;
+  }
+}
+
+.space-between .slide-section {
+  margin-top: 25px;
+}
+
+.slide-section img {
+  max-width: 100%;
+  max-height: 146px;
+}
+
+.product .product-list {
+  margin-top: 25px;
+}
+
+.shipper .shipper-siu {
+  margin-top: 25px;
+}
+
+.support .support-siuuu {
+  margin-top: 25px;
+}
+
+.author .author-siuuu {
+  margin-top: 25px;
+}
+
+body {
+  height: 1000px;
+}
+
+.shipper .fa-check {
+  color: rgb(75, 75, 223);
+  margin-right: 10px;
+}
+
+.shipper .fas {
+  color: rgb(75, 75, 223);
+  margin-right: 10px;
+}
+
+.support .fa {
+  color: rgb(75, 75, 223);
+  margin-right: 10px;
+}
+
+.author .fa {
+  color: rgb(75, 75, 223);
+  justify-content: space-between;
+  padding-left: 5px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 100%; /* Điều chỉnh chiều cao tùy ý */
+}

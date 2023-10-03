@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main1.css">
+    <title>Sign In</title>
+    <style>
+        body {
+            display: flex;
+        }
+    </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand border" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        </button>
-    </nav>
 
-<div class="container mt-5">
-    <div class="row justify-content-end">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="text-center">Sign In</h3>
+<body>
+    <a href="index.html" class="home-button">Home</a>
+    <div class="container mt-5">
+        <div class="row justify-content-end">
+            <div class="col-md-6 form-login">
+                <div class="the">
+                    <h2 style="text-align: center;" class="mb-4">Sign in</h2>
                 </div>
-                <div class="card-body">
+                <div class="input" style="margin-top: 30px;">
                     <form>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <div class="form-group" style="margin-bottom: 30px;">
+                            <input type="text" class="form-control" id="username" placeholder="Email">
+                        </div>
+                        <div class="form-group " style="margin-bottom: 30px;">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
                         <div class="form-group">
-                            <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter password">
+                            <input type="submit" value="Sign in" class="btn btn-primary" id="login-button">
                         </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="remember">
-                            </div>
+                        <hr>
+                        <div class="form-group" style="margin-top: 30px;">
+                            <a href="signup.html" class="btn btn-siu ml-auto j" id="login-button">Sign up</a>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                        <a class="border" href="signup.html">Sign Up</a></p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 </body>
+
 </html>
